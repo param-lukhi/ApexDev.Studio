@@ -1,0 +1,786 @@
+{
+  "users": [
+    {
+      "id": "user-admin-1",
+      "name": "Aura Studio Admin",
+      "email": "admin@auraweb.studio",
+      "phone": "+1 (555) 019-2834",
+      "passwordHash": "$2a$10$r9dQEiXYCJPHQV9Up0xsMOzd0QuEG/PG81FFnwQ0hzKhBfPawNCvu",
+      "role": "ADMIN",
+      "createdAt": "2026-09-06T16:02:59.614Z"
+    },
+    {
+      "id": "user-client-1",
+      "name": "Elena Rostova",
+      "email": "client@demo.com",
+      "phone": "+1 (555) 782-9912",
+      "passwordHash": "$2a$10$ovyo/8ZKiI0R6aJTLSjXPORsoVxMEKhm5jL1CuzflIrQr7h8IVn6C",
+      "role": "CLIENT",
+      "createdAt": "2026-09-06T16:02:59.616Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "AuraPay Global FinTech Platform",
+      "slug": "aurapay-fintech-platform",
+      "category": "Business",
+      "client": "AuraPay Financial Ltd.",
+      "timeline": "3 Weeks",
+      "year": "2026",
+      "summary": "A high-converting, security-forward web platform for an international cross-border payments infrastructure company.",
+      "requirement": "The client needed a digital platform capable of explaining complex multichain treasury architecture to enterprise CFOs while driving qualified demo requests.",
+      "challenge": "Simplifying institutional transaction flows into clean interactive diagrams without compromising on institutional trust or page load velocity.",
+      "solution": "Designed a dark glass-accented interface using Next.js 14 and Tailwind CSS with sub-second page loads, real-time rate calculator widgets, and an enterprise lead qualification funnel.",
+      "features": [
+        "Interactive Cross-Border Currency Calculator",
+        "Interactive Enterprise Security Compliance Viewer",
+        "Automated Calendly & HubSpot CRM Synchronization",
+        "Sub-0.7s Core Web Vitals on Mobile Networks",
+        "Multi-region Geo-IP localized pricing"
+      ],
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Node.js"
+      ],
+      "heroImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1400&auto=format&fit=crop",
+      "screenshots": [
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1400&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1400&auto=format&fit=crop"
+      ],
+      "liveUrl": "https://aurapay.example.com",
+      "featured": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "proj-2",
+      "title": "Lumina Luxury Swiss Horology",
+      "slug": "lumina-luxury-horology",
+      "category": "E-commerce",
+      "client": "Lumina Atelier Geneva",
+      "timeline": "4 Weeks",
+      "year": "2026",
+      "summary": "An ultra-exclusive digital boutique for handcrafted Swiss timepieces with private vault previews and concierge checkout.",
+      "requirement": "Deliver a high-touch luxury buying journey reflecting the brand’s 80-year heritage with private booking for bespoke watch customization.",
+      "challenge": "Balancing rich, high-resolution photography with instantaneous mobile scrolling and seamless multi-currency payment handling.",
+      "solution": "Engineered an editorial e-commerce experience featuring progressive image hydration, custom 360 watch inspection angles, and secure VIP reservation checkout.",
+      "features": [
+        "VIP Private Viewing Reservation Engine",
+        "High-Resolution Detail Zoom & Case Inspection",
+        "Multi-currency Stripe Checkout with Tax Compliance",
+        "Concierge WhatsApp Direct Connect",
+        "Responsive Touch-Optimized Product Carousel"
+      ],
+      "technologies": [
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "Stripe API",
+        "Supabase"
+      ],
+      "heroImage": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1400&auto=format&fit=crop",
+      "screenshots": [
+        "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1400&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1400&auto=format&fit=crop"
+      ],
+      "liveUrl": "https://lumina-horology.example.com",
+      "featured": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "proj-3",
+      "title": "Solstice Alpine Resort & Spa",
+      "slug": "solstice-alpine-resort",
+      "category": "Booking",
+      "client": "Solstice Hospitality Group",
+      "timeline": "3 Weeks",
+      "year": "2026",
+      "summary": "A modern booking ecosystem and resort guide for a premier luxury ski resort in the Italian Dolomites.",
+      "requirement": "Replace a fragmented 3rd-party iframe booking flow with a native, immersive reservation experience that boosted direct chalet bookings by 42%.",
+      "challenge": "Real-time room availability syncing across seasonal rates, ski pass add-ons, and spa package configurations.",
+      "solution": "Built a lightweight custom reservation engine with real-time room date range picking, live pricing breakdowns, and direct deposit checkout.",
+      "features": [
+        "Direct Real-Time Chalet & Suite Date Picker",
+        "Seasonal Weather & Ski Slope Condition Integration",
+        "Automated Guest Confirmation & SMS Itinerary",
+        "Immersive Full-Bleed Photography Modules",
+        "Dynamic Amenity Filter & Tour Schedule"
+      ],
+      "technologies": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Node.js",
+        "MongoDB"
+      ],
+      "heroImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1400&auto=format&fit=crop",
+      "screenshots": [
+        "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1400&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1400&auto=format&fit=crop"
+      ],
+      "liveUrl": "https://solstice-alpine.example.com",
+      "featured": true,
+      "sortOrder": 3
+    },
+    {
+      "id": "proj-4",
+      "title": "Kuro Studio Architecture Portfolio",
+      "slug": "kuro-architecture-portfolio",
+      "category": "Portfolio",
+      "client": "Kuro Architects Tokyo",
+      "timeline": "2 Weeks",
+      "year": "2026",
+      "summary": "A minimalist, typographic architectural archive highlighting sustainable urban residences and public spaces.",
+      "requirement": "Create a spatial, museum-grade portfolio that puts structural blueprints and architectural photography front and center.",
+      "challenge": "Achieving an uncompromising minimalist layout that remains fluid and effortlessly readable across every screen width.",
+      "solution": "Crafted a bespoke layout utilizing subtle grid alignments, responsive editorial typography, and high-performance image lazy loading.",
+      "features": [
+        "Interactive Blueprint & Floorplan Overlay Mode",
+        "Categorized Project Index with Quick Search",
+        "Awards & Publications Editorial Section",
+        "Dark/Light Contrast Balance",
+        "Optimized 99/100 Google Lighthouse Performance"
+      ],
+      "technologies": [
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript"
+      ],
+      "heroImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1400&auto=format&fit=crop",
+      "screenshots": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1400&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1400&auto=format&fit=crop"
+      ],
+      "liveUrl": "https://kuro-architects.example.com",
+      "featured": true,
+      "sortOrder": 4
+    },
+    {
+      "id": "proj-5",
+      "title": "PulseFlow AI Developer Tools",
+      "slug": "pulseflow-ai-developer-tools",
+      "category": "Landing Page",
+      "client": "PulseFlow Labs Inc.",
+      "timeline": "1 Week",
+      "year": "2026",
+      "summary": "A high-converting developer marketing landing page that drove 12,000+ developer signups in its first 14 days.",
+      "requirement": "Communicate a next-generation API monitoring platform with interactive code snippet tabs and instant CLI install copy buttons.",
+      "challenge": "Preventing developer skepticism through authentic, lightning-fast interactivity, transparent benchmarks, and zero layout shift.",
+      "solution": "Engineered an ultra-lean landing page with interactive terminal previews, syntax-highlighted code tabs, and instant email capture.",
+      "features": [
+        "Interactive Multi-Language SDK Tabs (Node, Python, Go, Rust)",
+        "Live Benchmark Comparison Widget",
+        "One-Click CLI Command Copy Tooltips",
+        "GitHub Star Count & Release Tracker",
+        "0.5s Global CDN Delivery"
+      ],
+      "technologies": [
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript",
+        "Lucide Icons"
+      ],
+      "heroImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1400&auto=format&fit=crop",
+      "screenshots": [
+        "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1400&auto=format&fit=crop"
+      ],
+      "liveUrl": "https://pulseflow.example.com",
+      "featured": false,
+      "sortOrder": 5
+    },
+    {
+      "id": "proj-6",
+      "title": "Osteria Botanica Artisanal Dining",
+      "slug": "osteria-botanica-dining",
+      "category": "Restaurant",
+      "client": "Osteria Botanica Milano",
+      "timeline": "2 Weeks",
+      "year": "2026",
+      "summary": "An elegant seasonal dining website with real-time table reservations, digital tasting menus, and sommelier notes.",
+      "requirement": "Enable guests to easily browse seasonal tasting menus, reserve dinner tables without app downloads, and buy digital gift vouchers.",
+      "challenge": "Creating a warm, atmospheric dining mood on digital screens that loads instantly on mobile guests walking in.",
+      "solution": "Designed an organic dark aesthetic with dynamic tasting menu filters, wine pairing recommendations, and integrated OpenTable/SevenRooms hooks.",
+      "features": [
+        "Interactive Seasonal Dietary & Allergen Filtered Menu",
+        "Direct Table Booking Integration",
+        "Digital Gift Card Checkout",
+        "Chef Philosophy & Farm-to-Table Origin Stories",
+        "Mobile Click-to-Call & Map Directions"
+      ],
+      "technologies": [
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "JavaScript"
+      ],
+      "heroImage": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1400&auto=format&fit=crop",
+      "screenshots": [
+        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1400&auto=format&fit=crop"
+      ],
+      "liveUrl": "https://osteriabotanica.example.com",
+      "featured": false,
+      "sortOrder": 6
+    },
+    {
+      "id": "proj-7",
+      "title": "Synapse Health AI Clinical Hub",
+      "slug": "synapse-health-clinical-hub",
+      "category": "Custom",
+      "client": "Synapse Health Systems",
+      "timeline": "5 Weeks",
+      "year": "2026",
+      "summary": "A HIPAA-compliant clinical web portal connecting diagnostic clinics with remote radiologists for accelerated triage.",
+      "requirement": "Secure web application with two-factor authentication, patient intake triage, DICOM imaging viewer hooks, and encrypted report generation.",
+      "challenge": "Stringent security compliance, responsive tabular patient queues, and instant search across tens of thousands of anonymized records.",
+      "solution": "Full-stack Next.js application with role-based access control, encrypted patient record forms, and instantaneous data filtering.",
+      "features": [
+        "Encrypted Patient Intake & Medical History Portal",
+        "Role-Based Doctor & Technician Dashboards",
+        "Audit Logging & Security Verification",
+        "Exportable Diagnostic PDF Summary Engine",
+        "Automated Status Progression Timelines"
+      ],
+      "technologies": [
+        "Next.js",
+        "Node.js",
+        "Express",
+        "Supabase",
+        "Tailwind CSS"
+      ],
+      "heroImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1400&auto=format&fit=crop",
+      "screenshots": [
+        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1400&auto=format&fit=crop"
+      ],
+      "liveUrl": "https://synapsehealth.example.com",
+      "featured": false,
+      "sortOrder": 7
+    },
+    {
+      "id": "proj-8",
+      "title": "Verve Studio Creative Agency",
+      "slug": "verve-studio-creative",
+      "category": "Portfolio",
+      "client": "Verve Creative NYC",
+      "timeline": "2 Weeks",
+      "year": "2026",
+      "summary": "A bold, high-contrast digital agency platform designed to showcase brand identities, 3D motion, and campaign rollouts.",
+      "requirement": "Establish the agency as an elite brand consultancy in New York through smooth case studies and high client conversion.",
+      "challenge": "Delivering rich media case studies without bloated assets or stuttering scroll performance.",
+      "solution": "Built modular case study pages with responsive image formats, client testimonials, and clear project inquiry hooks.",
+      "features": [
+        "Interactive Work Reel Carousel",
+        "Client Roster & Press Mentions Grid",
+        "Service Scopes & Engagement Estimator",
+        "Smooth Subtle Entrance Transitions",
+        "Instant Lead Capture Modal"
+      ],
+      "technologies": [
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "CSS Grid"
+      ],
+      "heroImage": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1400&auto=format&fit=crop",
+      "screenshots": [
+        "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1400&auto=format&fit=crop"
+      ],
+      "liveUrl": "https://vervestudio.example.com",
+      "featured": false,
+      "sortOrder": 8
+    }
+  ],
+  "packages": [
+    {
+      "id": "pkg-starter",
+      "name": "STARTER",
+      "tag": "Essential Launch",
+      "description": "Perfect for startups, independent consultants, and small businesses needing a credible digital footprint.",
+      "price": "$990",
+      "originalPrice": "$1,490",
+      "billingPeriod": "one-time",
+      "features": [
+        "Up to 5 Custom Responsive Pages",
+        "Modern Dark/Light UI Design System",
+        "Mobile & Tablet Responsive Guarantee",
+        "Contact & Lead Capture Forms",
+        "Basic SEO & Meta Optimization",
+        "Google Analytics & Search Console Setup",
+        "Speed Optimization (Sub-1s Load)",
+        "14 Days Post-Launch Support"
+      ],
+      "deliveryTime": "7 - 10 Business Days",
+      "isPopular": false,
+      "isCustom": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "pkg-pro",
+      "name": "PROFESSIONAL",
+      "tag": "Most Popular",
+      "description": "Engineered for scaling businesses that require custom interactivity, lead generation, and dynamic CMS capabilities.",
+      "price": "$1,950",
+      "originalPrice": "$2,800",
+      "billingPeriod": "one-time",
+      "features": [
+        "Up to 10 Bespoke High-Polish Pages",
+        "Custom Dynamic CMS / Blog / Work Showcase",
+        "Interactive Micro-Animations & Smooth Polish",
+        "Advanced On-Page SEO & Schema Markup",
+        "Direct WhatsApp & CRM Integration",
+        "Interactive Booking or Quote Calculator",
+        "Ultra-Fast Next.js Cloud Infrastructure",
+        "30 Days Dedicated Post-Launch Support"
+      ],
+      "deliveryTime": "2 - 3 Weeks",
+      "isPopular": true,
+      "isCustom": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "pkg-premium",
+      "name": "PREMIUM",
+      "tag": "E-commerce & Web Apps",
+      "description": "Complete digital solutions with custom authentication, payment processing, complex workflows, or e-commerce.",
+      "price": "$3,800",
+      "originalPrice": "$4,900",
+      "billingPeriod": "one-time",
+      "features": [
+        "Unlimited Pages & Custom Post Types",
+        "Full E-commerce or Member Portal System",
+        "Stripe / PayPal Payment Gateways",
+        "User Authentication & Client Dashboard",
+        "Custom Database Architecture",
+        "Multi-Language / Localization Ready",
+        "Comprehensive Core Web Vitals 98+ Score",
+        "60 Days Priority 24/7 Support & SLA"
+      ],
+      "deliveryTime": "3 - 5 Weeks",
+      "isPopular": false,
+      "isCustom": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "pkg-custom",
+      "name": "CUSTOM",
+      "tag": "Enterprise & SaaS",
+      "description": "Custom-tailored full-stack platforms, bespoke APIs, enterprise integrations, and specialized architectures.",
+      "price": "Custom Quote",
+      "billingPeriod": "milestone-based",
+      "features": [
+        "Bespoke Architecture & Design Sprints",
+        "Custom SaaS / Full-Stack Application Development",
+        "Complex Database & Cloud Infrastructure",
+        "Enterprise Third-Party API Integrations",
+        "Automated Testing & CI/CD Pipelines",
+        "Dedicated Tech Lead & Daily Standups",
+        "Custom Security & Compliance Audits",
+        "Quarterly Retainer & Dedicated SLA"
+      ],
+      "deliveryTime": "Custom Timeline",
+      "isPopular": false,
+      "isCustom": true,
+      "sortOrder": 4
+    }
+  ],
+  "services": [
+    {
+      "id": "srv-1",
+      "title": "Business Websites",
+      "slug": "business-websites",
+      "shortDesc": "Authoritative, conversion-focused corporate platforms engineered to establish credibility and capture high-value leads.",
+      "fullDesc": "We architect bespoke business websites that communicate your unique market value proposition. Built with sub-second page loads, SEO-first architecture, structured CMS capabilities, and high-converting inquiry funnels.",
+      "iconName": "Building2",
+      "deliverables": [
+        "Custom UI/UX Design System",
+        "High-Speed Next.js Architecture",
+        "Lead Capture Funnels",
+        "Search Engine Optimization",
+        "Analytics & CRM Integrations"
+      ],
+      "turnaround": "2 - 3 Weeks",
+      "sortOrder": 1
+    },
+    {
+      "id": "srv-2",
+      "title": "Portfolio Websites",
+      "slug": "portfolio-websites",
+      "shortDesc": "Immersive, visual-first portfolios designed for creatives, architects, agencies, and visionary founders.",
+      "fullDesc": "Highlight your finest work with smooth micro-interactions, responsive typography, sleek media galleries, and lightning-fast case study presentation.",
+      "iconName": "Sparkles",
+      "deliverables": [
+        "Editorial Project Showcases",
+        "Interactive Media Galleries",
+        "Interactive Case Studies",
+        "Custom Domain & SSL",
+        "Responsive Dark/Light Aesthetics"
+      ],
+      "turnaround": "1 - 2 Weeks",
+      "sortOrder": 2
+    },
+    {
+      "id": "srv-3",
+      "title": "E-commerce Websites",
+      "slug": "ecommerce-websites",
+      "shortDesc": "High-speed, frictionless online storefronts tailored for maximum average order value and checkout conversion.",
+      "fullDesc": "From bespoke custom headless storefronts to Stripe/Shopify integrations, we build e-commerce experiences with instant search, seamless cart drawers, and secure payment processing.",
+      "iconName": "ShoppingBag",
+      "deliverables": [
+        "Custom Product Detail Pages",
+        "Frictionless One-Click Checkout",
+        "Inventory & Order Dashboard",
+        "Payment Gateway Integrations",
+        "Automated Email Flows"
+      ],
+      "turnaround": "3 - 4 Weeks",
+      "sortOrder": 3
+    },
+    {
+      "id": "srv-4",
+      "title": "Booking Websites",
+      "slug": "booking-websites",
+      "shortDesc": "Automated reservation & appointment scheduling platforms for hospitality, consultancies, and clinics.",
+      "fullDesc": "Eliminate scheduling friction with real-time calendar synchronization, automated SMS/email reminders, slot management, and upfront deposit capture.",
+      "iconName": "CalendarCheck",
+      "deliverables": [
+        "Interactive Booking Engine",
+        "Real-Time Calendar Sync",
+        "Deposit & Payment Capture",
+        "Automated Notification Pipeline",
+        "Client Management Portal"
+      ],
+      "turnaround": "2 - 3 Weeks",
+      "sortOrder": 4
+    },
+    {
+      "id": "srv-5",
+      "title": "Landing Pages",
+      "slug": "landing-pages",
+      "shortDesc": "Hyper-optimized, single-objective landing pages built to turn ad traffic into paying customers.",
+      "fullDesc": "Engineered for high PPC and campaign ROI with razor-sharp copy hierarchy, instantaneous loading under 0.8s, and A/B testable modular structure.",
+      "iconName": "Flame",
+      "deliverables": [
+        "High-Converting Copy Hierarchy",
+        "Sub-Second Page Load Times",
+        "A/B Test Ready Modules",
+        "Pixel & Attribution Setup",
+        "Mobile-First Optimization"
+      ],
+      "turnaround": "4 - 7 Days",
+      "sortOrder": 5
+    },
+    {
+      "id": "srv-6",
+      "title": "Custom Web Applications",
+      "slug": "custom-web-applications",
+      "shortDesc": "Complex full-stack SaaS portals, client dashboards, and interactive web tools engineered with modern tech stacks.",
+      "fullDesc": "Tailor-made web applications featuring authentication, role-based access control, relational database design, REST/GraphQL APIs, and real-time state management.",
+      "iconName": "Code2",
+      "deliverables": [
+        "Full-Stack Next.js / Node Architecture",
+        "Role-Based Authentication",
+        "Custom Database Schema",
+        "Third-Party API Integrations",
+        "Scalable Cloud Deployment"
+      ],
+      "turnaround": "4 - 8 Weeks",
+      "sortOrder": 6
+    },
+    {
+      "id": "srv-7",
+      "title": "Website Redesign",
+      "slug": "website-redesign",
+      "shortDesc": "Modernize outdated websites with contemporary visual design, faster speeds, and elevated UX standards.",
+      "fullDesc": "Transform legacy web assets into industry-leading digital touchpoints while preserving your existing SEO rankings and customer familiarity.",
+      "iconName": "RefreshCw",
+      "deliverables": [
+        "Legacy Architecture Audit",
+        "Modern UI/UX Revamp",
+        "SEO Equity Preservation",
+        "301 Redirect Mapping",
+        "Core Web Vitals Boost"
+      ],
+      "turnaround": "2 - 3 Weeks",
+      "sortOrder": 7
+    },
+    {
+      "id": "srv-8",
+      "title": "Website Maintenance",
+      "slug": "website-maintenance",
+      "shortDesc": "Proactive 24/7 monitoring, security patches, performance tuning, and on-demand content updates.",
+      "fullDesc": "Continuous care for mission-critical web platforms so you never worry about downtime, broken plugins, security vulnerabilities, or stale content.",
+      "iconName": "ShieldCheck",
+      "deliverables": [
+        "Continuous Uptime Monitoring",
+        "Security Patches & Dependency Updates",
+        "Performance & Speed Audits",
+        "Monthly Content Revisions",
+        "Priority Technical Support"
+      ],
+      "turnaround": "Ongoing / Retainer",
+      "sortOrder": 8
+    }
+  ],
+  "inquiries": [
+    {
+      "id": "inq-demo-1",
+      "clientName": "Elena Rostova",
+      "email": "client@demo.com",
+      "phone": "+1 (555) 782-9912",
+      "businessName": "Lumina Atelier Geneva",
+      "websiteType": "E-commerce",
+      "selectedPackageId": "pkg-pro",
+      "packageName": "PROFESSIONAL",
+      "requiredPages": [
+        "Home",
+        "Collections",
+        "Watch Configurator",
+        "About Atelier",
+        "VIP Booking",
+        "Contact"
+      ],
+      "requiredFeatures": [
+        "Stripe Multi-currency",
+        "VIP Booking Engine",
+        "High-Res Zoom",
+        "WhatsApp Concierge"
+      ],
+      "preferredDesign": "Minimalist dark luxury with Swiss grid alignment",
+      "referenceWebsite": "https://lumina-horology.example.com",
+      "domainAvailable": true,
+      "hostingAvailable": true,
+      "budget": "$2,500 - $4,000",
+      "message": "We are launching our spring timepiece catalog and need a flawless digital showroom.",
+      "status": "In Progress",
+      "createdAt": "2026-09-03T16:02:59.616Z",
+      "updatedAt": "2026-09-06T16:02:59.616Z",
+      "clientId": "user-client-1"
+    },
+    {
+      "id": "inq-demo-2",
+      "clientName": "Julian Sterling",
+      "email": "julian@pulseflow.io",
+      "phone": "+1 (555) 912-3049",
+      "businessName": "PulseFlow Labs",
+      "websiteType": "Landing Page",
+      "selectedPackageId": "pkg-starter",
+      "packageName": "STARTER",
+      "requiredPages": [
+        "Landing Page",
+        "Docs Preview",
+        "Pricing",
+        "Changelog"
+      ],
+      "requiredFeatures": [
+        "Interactive CLI Code Tabs",
+        "Sub-0.5s Load Time",
+        "Email Capture"
+      ],
+      "preferredDesign": "Modern dark developer aesthetic with electric cyan glow",
+      "referenceWebsite": "https://pulseflow.example.com",
+      "domainAvailable": true,
+      "hostingAvailable": false,
+      "budget": "$1,000 - $2,000",
+      "message": "Need a fast developer marketing page for our upcoming Product Hunt launch.",
+      "status": "Approved",
+      "createdAt": "2026-09-05T20:02:59.616Z",
+      "updatedAt": "2026-09-06T16:02:59.616Z"
+    }
+  ],
+  "clientProjects": [
+    {
+      "id": "cproj-demo-1",
+      "clientId": "user-client-1",
+      "clientEmail": "client@demo.com",
+      "clientName": "Elena Rostova",
+      "inquiryId": "inq-demo-1",
+      "projectName": "Lumina Atelier Swiss E-commerce",
+      "packageName": "PROFESSIONAL",
+      "status": "Development",
+      "stageProgress": 60,
+      "stagingUrl": "https://staging.lumina.example.com",
+      "productionUrl": "https://lumina-horology.example.com",
+      "requirements": {
+        "businessName": "Lumina Atelier Geneva",
+        "websiteType": "E-commerce & VIP Booking",
+        "budget": "$2,500 - $4,000",
+        "details": "Luxury Swiss timepieces with VIP private viewing booking and multi-currency checkout.",
+        "domainAvailable": true,
+        "hostingAvailable": true
+      },
+      "messages": [
+        {
+          "id": "msg-1",
+          "sender": "CLIENT",
+          "senderName": "Elena Rostova",
+          "text": "Hi team! We just approved the high-fidelity UI wireframes. Loving the dark Swiss typography!",
+          "timestamp": "2026-09-04T16:02:59.616Z"
+        },
+        {
+          "id": "msg-2",
+          "sender": "ADMIN",
+          "senderName": "Aura Studio Dev Team",
+          "text": "Wonderful, Elena! We have moved into Stage 03 — IMPLEMENT. We are currently configuring the real-time Stripe checkout and mobile product animations.",
+          "timestamp": "2026-09-05T16:02:59.616Z"
+        }
+      ],
+      "files": [
+        {
+          "id": "file-1",
+          "name": "Lumina_UI_Design_System_v2.pdf",
+          "size": "4.2 MB",
+          "type": "PDF Document",
+          "url": "#",
+          "uploadedAt": "2026-09-04T16:02:59.616Z"
+        },
+        {
+          "id": "file-2",
+          "name": "Staging_Credentials_Access.txt",
+          "size": "1.2 KB",
+          "type": "Text Document",
+          "url": "#",
+          "uploadedAt": "2026-09-05T16:02:59.616Z"
+        }
+      ],
+      "createdAt": "2026-09-03T16:02:59.616Z",
+      "updatedAt": "2026-09-06T16:02:59.616Z"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "test-1",
+      "clientName": "Marcus Vance",
+      "company": "AuraPay Financial",
+      "role": "Chief Technology Officer",
+      "projectType": "FinTech Platform Redesign",
+      "review": "The team transformed our web presence completely. Our page speed increased by 300% and inbound enterprise demo requests doubled within the first month of launching. Their attention to design polish and performance is unmatched.",
+      "rating": 5,
+      "verified": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "test-2",
+      "clientName": "Elena Rostova",
+      "company": "Lumina Atelier Geneva",
+      "role": "Head of Brand Experience",
+      "projectType": "Luxury E-commerce Boutique",
+      "review": "Working with this agency was a revelation. They captured our Swiss horology aesthetic flawlessly while engineering a bespoke booking and checkout flow that our VIP clients constantly compliment.",
+      "rating": 5,
+      "verified": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "test-3",
+      "clientName": "Daisuke Takahashi",
+      "company": "Kuro Architects Tokyo",
+      "role": "Principal Architect",
+      "projectType": "Minimalist Studio Portfolio",
+      "review": "Pure craftsmanship. The typography, clean lines, and lightning-fast project navigation showcase our architectural works with the respect and precision they demand. Highly recommended for any serious business.",
+      "rating": 5,
+      "verified": true,
+      "sortOrder": 3
+    },
+    {
+      "id": "test-4",
+      "clientName": "Julian Sterling",
+      "company": "PulseFlow Labs",
+      "role": "Co-Founder & CEO",
+      "projectType": "Developer SaaS Landing Page",
+      "review": "They built our launch page in one week flat. Flawless code quality, zero layout shift, and our conversion rate from Reddit and Product Hunt traffic blew past our highest forecasts.",
+      "rating": 5,
+      "verified": true,
+      "sortOrder": 4
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq-1",
+      "question": "How much does a website cost?",
+      "answer": "Our packages range from $990 for our Starter launch package up to $3,800+ for complex E-commerce and full-stack web applications. Custom enterprise platforms are quoted after a brief scoping call. All pricing is 100% transparent with no hidden recurring maintenance fees unless requested.",
+      "category": "Pricing",
+      "sortOrder": 1
+    },
+    {
+      "id": "faq-2",
+      "question": "How long does a website take to build?",
+      "answer": "Most standard projects take between 1 to 3 weeks depending on the package. Starter websites are delivered in 7-10 business days, Professional websites in 2-3 weeks, and advanced E-commerce or custom applications in 3-5 weeks. We adhere strictly to agreed launch deadlines.",
+      "category": "Timeline",
+      "sortOrder": 2
+    },
+    {
+      "id": "faq-3",
+      "question": "What information do I need to provide to start?",
+      "answer": "To get started, simply choose a package and submit our Project Requirement Form with your business overview, target audience, reference websites you admire, and any existing branding (logo, brand colors, imagery). If you don’t have branding yet, our design team will guide you.",
+      "category": "Process",
+      "sortOrder": 3
+    },
+    {
+      "id": "faq-4",
+      "question": "Will my website work perfectly on mobile devices?",
+      "answer": "Yes, 100%. Every website we engineer is built mobile-first and tested extensively across multiple device resolutions (iPhones, Androids, iPads, laptops, ultra-wide monitors) to ensure flawless touch interactions, readable typography, and zero layout shift.",
+      "category": "Technical",
+      "sortOrder": 4
+    },
+    {
+      "id": "faq-5",
+      "question": "Can you create custom features and integrations?",
+      "answer": "Absolutely. We regularly build custom booking calendars, CRM syncs, Stripe/PayPal payment systems, gated client portals, interactive calculators, and custom database integrations tailored precisely to your operational workflow.",
+      "category": "Technical",
+      "sortOrder": 5
+    },
+    {
+      "id": "faq-6",
+      "question": "Do you provide domain and hosting assistance?",
+      "answer": "Yes. We will assist you with domain DNS configuration, SSL security certificate setup, and deployment to high-speed global edge networks (such as Vercel, Netlify, or AWS) for 99.99% uptime and sub-second global performance.",
+      "category": "Technical",
+      "sortOrder": 6
+    },
+    {
+      "id": "faq-7",
+      "question": "Can I request revisions during the design and development phases?",
+      "answer": "Yes. Our 4-stage process (Analyze -> Design -> Implement -> Maintain) includes structured feedback milestones at both the UI design review and functional staging stages to ensure you are 100% thrilled with the final product before launch.",
+      "category": "Process",
+      "sortOrder": 7
+    },
+    {
+      "id": "faq-8",
+      "question": "Do you provide website maintenance after launch?",
+      "answer": "Yes! Every project includes complimentary post-launch support (14 to 60 days depending on package). We also offer monthly retainer plans for ongoing security patches, speed audits, feature additions, and priority technical support.",
+      "category": "Support",
+      "sortOrder": 8
+    },
+    {
+      "id": "faq-9",
+      "question": "Can I upgrade my package later as my business grows?",
+      "answer": "Yes. Because we build with modular, clean Next.js and modern database architecture, your website can effortlessly scale from a 5-page launchpad into an expansive e-commerce or SaaS platform without needing a complete rewrite.",
+      "category": "General",
+      "sortOrder": 9
+    },
+    {
+      "id": "faq-10",
+      "question": "What happens immediately after I submit my project request?",
+      "answer": "Once you submit your project inquiry form, your dedicated Client Dashboard is automatically created. Our lead developer reviews your requirements within 4 business hours, reaches out for a kickoff discussion, and transitions your project status into the Design sprint.",
+      "category": "Process",
+      "sortOrder": 10
+    }
+  ],
+  "settings": {
+    "agencyName": "AuraWeb Studio",
+    "tagline": "Modern High-Performance Web Development Studio",
+    "headline": "Websites That Build Your Brand.",
+    "subheadline": "Modern, responsive and high-performance websites designed around your business, brand and goals.",
+    "email": "contact@auraweb.studio",
+    "phone": "+1 (555) 234-8901",
+    "whatsappNumber": "+15552348901",
+    "address": "San Francisco, CA & Remote Worldwide",
+    "socialLinks": {
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com",
+      "instagram": "https://instagram.com",
+      "twitter": "https://twitter.com"
+    }
+  }
+}
